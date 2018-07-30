@@ -1,7 +1,8 @@
-# SYNCFY
-> convert your Asynchronous function to Synchronous in node.
+# SYNCIFY
 
-### USAGE
+> convert Asynchronous function to Synchronous in node.
+
+## USAGE
 
 * some async function
 
@@ -23,18 +24,18 @@ sleep(10)
 }());
 ```
 
-* how we use it after **syncfy**
+* how we use it after **syncify**
 
 ```js
-const syncfy = require('syncfy');
+const syncify = require('syncify');
 
-const sleepSync = syncfy(sleep);
-const doSomeThingWhenYouWakeUpSync = syncfy(doSomeThingWhenYouWakeUp);
+const sleepSync = syncify(sleep);
+const doSomeThingWhenYouWakeUpSync = syncify(doSomeThingWhenYouWakeUp);
 
 sleepSync(10);
 doSomeThingWhenYouWakeUpSync();
 ```
 
-### LICENSE
+## LICENSE
 
 MIT
