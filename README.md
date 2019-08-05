@@ -1,4 +1,4 @@
-# SYNCIFY
+# SYNCIFY-test
 
 > convert Asynchronous function to Synchronous in node.
 
